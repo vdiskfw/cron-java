@@ -1,0 +1,9 @@
+# .dockerignore
+
+# ignore all
+**
+
+# include
+!context/
+!src/main/
+!pom.xml

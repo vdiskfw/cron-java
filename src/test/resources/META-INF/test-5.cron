@@ -1,0 +1,1 @@
+47 0 * * * /etc/acme/scripts/cron-run.sh >> /var/log/acme/cron.log 2>&1;

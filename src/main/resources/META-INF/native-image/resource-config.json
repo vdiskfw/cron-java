@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "\\Qconfig/application.properties\\E"
+      },
+      {
+        "pattern": "\\QMETA-INF/hello-world.cron\\E"
+      }
+    ]
+  }
+}
