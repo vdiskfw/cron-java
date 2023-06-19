@@ -1,0 +1,21 @@
+# .gitignore
+
+# git
+*.patch
+
+# idea
+.idea/
+*.iml
+
+# log
+logs/
+*.log
+
+# mac
+.DS_Store
+
+# maven
+.flattened-pom.xml
+
+# target
+target/
