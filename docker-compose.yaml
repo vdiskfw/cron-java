@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  cron-java:
+    container_name: b_cron-java
+    image: vdisk/cron-java:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - /bin/bash
