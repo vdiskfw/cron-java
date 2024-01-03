@@ -5,7 +5,7 @@ WORKDIR /build
 COPY ./pom.xml /build/pom.xml
 COPY ./src/ /build/src/
 RUN \
-    --mount=type=cache,sharing=private,target=/root/.m2/repository \
+    --mount=type=cache,sharing=locked,target=/root/.m2/repository \
     set -eux; \
     ls -lh /build/; \
     ls -lh /root/.m2/repository/; \
